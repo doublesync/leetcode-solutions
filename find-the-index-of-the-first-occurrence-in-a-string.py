@@ -9,4 +9,6 @@ class Solution(object):
                 if not end_index > hlength:
                     if haystack[i:end_index] == needle:
                         return i
+                else:
+                    break
         return -1
